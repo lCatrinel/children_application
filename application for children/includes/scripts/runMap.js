@@ -18,3 +18,17 @@ $(document).ready(function(){
 // END OF THE CSSMap;
 
 });
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("flag", ev.target.id);
+}
+
+function drop(ev) {
+    //alert("dropped" + ev.dataTransfer.getData("flag"));
+    var grandparent = ev.target.parentElement.parentElement;
+    console.log("dropped to " +  grandparent.innerText)
+}
