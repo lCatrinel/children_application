@@ -32,3 +32,13 @@ function drop(ev) {
     var grandparent = ev.target.parentElement.parentElement;
     console.log("dropped to " +  grandparent.innerText)
 }
+
+function disableDrop(event) {
+    event.preventDefault();
+    return false;
+}
+
+function disabledDrop(event) {
+    event.preventDefault();
+    return false;
+}

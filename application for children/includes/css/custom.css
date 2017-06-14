@@ -34,3 +34,8 @@ label {
 input[type="radio"] {
     display: none;
 }
+
+.not-active {
+    pointer-events: none;
+    cursor: no-drop;
+}
