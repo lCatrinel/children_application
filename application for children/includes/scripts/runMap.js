@@ -17,6 +17,16 @@ $(document).ready(function(){
     });
 // END OF THE CSSMap;
 
+    /* disable click on map */
+    // var elements = $('li > span > span');
+    // elements.removeEventListener("click", function () {
+    //     //this is the handler
+    // }, true);
+
+    $('span.m').click(function () {
+        alert("clicked");
+        return false;
+    });
 });
 
 function allowDrop(ev) {
