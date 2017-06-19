@@ -17,4 +17,38 @@ $(document).ready(function(){
     });
 // END OF THE CSSMap;
 
+    /* disable click on map */
+    // var elements = $('li > span > span');
+    // elements.removeEventListener("click", function () {
+    //     //this is the handler
+    // }, true);
+
+    $('span.m').click(function () {
+        alert("clicked");
+        return false;
+    });
 });
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("flag", ev.target.id);
+}
+
+function drop(ev) {
+    //alert("dropped" + ev.dataTransfer.getData("flag"));
+    var grandparent = ev.target.parentElement.parentElement;
+    console.log("dropped to " +  grandparent.innerText)
+}
+
+function disableDrop(event) {
+    event.preventDefault();
+    return false;
+}
+
+function disabledDrop(event) {
+    event.preventDefault();
+    return false;
+}

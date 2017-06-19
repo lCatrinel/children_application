@@ -1,0 +1,9 @@
+.draggable-flag {
+    max-width: 7em;
+    padding: 10px;
+}
+
+/* overriding default */
+.display-demo-map {
+    padding: 0;
+}
