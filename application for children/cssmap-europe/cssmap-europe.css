@@ -9287,7 +9287,7 @@
     background-position: -232px -1235px
 }
 
-.cssmap-750 .eu16 .bg, .cssmap-750 .eu16.active-region .bg {
+.cssmap-750 .eu16.focus .bg, .cssmap-750 .eu16.active-region .bg {
     height: 107px;
     left: 267px;
     top: 319px;

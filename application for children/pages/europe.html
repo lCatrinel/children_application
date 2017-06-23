@@ -40,7 +40,7 @@
 
     <title>CSSMap - Europe</title>
 </head>
-<body id="demo-page-europe">
+<body id="demo-page-europe" background="../includes/img/df640e41.png">
 
 <!--[if lt IE 9 ]>
 <div id="ie-error">This demo page will not work correctly in your web browser!</div><![endif]-->
@@ -50,13 +50,13 @@
     <div></div>
 
         <div id="flags-left" class="flags-left aligncenter">
-            <img src="../includes/flags/Flag_of_the_United_Kingdom.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Spain.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_France.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Germany.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Italy.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Romania.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Ukraine.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="UnitedKingdomFlag" src="../includes/flags/Flag_of_the_United_Kingdom.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="SpainFlag" src="../includes/flags/Flag_of_Spain.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="FranceFlag" src="../includes/flags/Flag_of_France.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="GermanyFlag" src="../includes/flags/Flag_of_Germany.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="ItalyFlag" src="../includes/flags/Flag_of_Italy.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="RomaniaFlag" src="../includes/flags/Flag_of_Romania.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="UkraineFlag" src="../includes/flags/Flag_of_Ukraine.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
         </div>
 
         <!-- MAP -->
@@ -81,12 +81,12 @@
                     <!--<li class="eu47"><a href="#united-kingdom">Regatul Unit</a></li>-->
 
 
-                    <li class="eu1 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#albania">Albania</a></li>
-                    <li class="eu2 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#andorra">Andorra</a></li>
-                    <li class="eu3 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#austria">Austria</a></li>
-                    <li class="eu4 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#belarus">Belarus</a></li>
-                    <li class="eu5 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#belgium">Belgium</a></li>
-                    <li class="eu6 not-active no-drop" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#bosnia-and-herzegovina">Bosnia and Herzegovina</a></li>
+                    <li class="eu1 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#albania">Albania</a></li>
+                    <li class="eu2 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#andorra">Andorra</a></li>
+                    <li class="eu3 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#austria">Austria</a></li>
+                    <li class="eu4 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#belarus">Belarus</a></li>
+                    <li class="eu5 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#belgium">Belgium</a></li>
+                    <li class="eu6 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#bosnia-and-herzegovina">Bosnia and Herzegovina</a></li>
                     <li class="eu7" ondragover="allowDrop(event)" ondrop="drop(event)"><a href="#bulgaria">Bulgaria</a></li>
                     <li class="eu8 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#croatia">Croatia</a></li>
                     <li class="eu9 not-active" ondragover="disableDrop(event)" ondrop="disabledDrop(event)"><a href="#cyprus">Cyprus</a></li>
@@ -189,13 +189,13 @@
         <!-- END OF THE MAP -->
 
         <div id="flags-right" class="flags-right aligncenter">
-            <img src="../includes/flags/Flag_of_Turkey.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Russia.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Finland.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Poland.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Norway.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Sweden.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
-            <img src="../includes/flags/Flag_of_Iceland.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="TurkeyFlag" src="../includes/flags/Flag_of_Turkey.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="RussiaFlag" src="../includes/flags/Flag_of_Russia.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="FinlandFlag" src="../includes/flags/Flag_of_Finland.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="PolishFlag" src="../includes/flags/Flag_of_Poland.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="NorwayFlag" src="../includes/flags/Flag_of_Norway.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="SwedenFlag" src="../includes/flags/Flag_of_Sweden.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
+            <img id="IcelandFlag" src="../includes/flags/Flag_of_Iceland.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
         </div>
 
     </div>

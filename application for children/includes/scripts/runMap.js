@@ -16,31 +16,21 @@ $(document).ready(function(){
         }
     });
 // END OF THE CSSMap;
-
-    /* disable click on map */
-    // var elements = $('li > span > span');
-    // elements.removeEventListener("click", function () {
-    //     //this is the handler
-    // }, true);
-
-    $('span.m').click(function () {
-        alert("clicked");
-        return false;
-    });
 });
 
-function allowDrop(ev) {
-    ev.preventDefault();
+function allowDrop(event) {
+    event.preventDefault();
 }
 
-function drag(ev) {
-    ev.dataTransfer.setData("flag", ev.target.id);
+function drag(event) {
+    event.dataTransfer.setData("flag", event.target.id);
 }
 
-function drop(ev) {
-    //alert("dropped" + ev.dataTransfer.getData("flag"));
-    var grandparent = ev.target.parentElement.parentElement;
-    console.log("dropped to " +  grandparent.innerText)
+function drop(event) {
+    var grandparent = event.target.parentElement.parentElement;
+
+    var flagIdToRemove = event.dataTransfer.getData("flag");
+    $("#" + flagIdToRemove).animate({ opacity: 0 }); //.fadeOut(); //.hide()
 }
 
 function disableDrop(event) {
