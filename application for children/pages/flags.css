@@ -1,5 +1,6 @@
 .draggable-flag {
     max-width: 7em;
+    height: 4em;
     margin: 10px;
     box-shadow: 0px 18px 22px 1px #333;
 }
