@@ -10,3 +10,9 @@ $(document).ready(function(){
 // END OF THE CSSMap;
 
 });
+
+function playSound(continent) {
+    var audio = new Audio("../includes/sounds/" + continent + ".wav");
+    audio.play();
+    console.log("yay: " + continent );
+}
