@@ -6,7 +6,7 @@ $(document).ready(function(){
 // CSSMap;
     $("#map-europe").CSSMap({
         "size": 750,
-        "tooltips": "floating-top-center",
+        "tooltips": "false",
         "responsive": "auto",
         "agentsList": {
             "enable": true,
@@ -18,6 +18,42 @@ $(document).ready(function(){
 // END OF THE CSSMap;
 });
 
+
+//MODAL starts here
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
+
+function displayModal(event) {
+    //open with a delay, so that the user has time to hover over countries
+    var delay = setTimeout(function () {
+        var grandparent = event.target.parentElement.parentElement;
+        modal.firstElementChild.lastElementChild.innerText = grandparent.className;
+        modal.style.display = "block";
+    },
+        700);
+    //if the user has hovered out
+    this.onmouseout = function () {
+        clearTimeout(delay);
+    }
+}
+//MODAL ends here
+
+//drag and drop starts here
 function allowDrop(event) {
     event.preventDefault();
 }
@@ -54,9 +90,6 @@ function disabledDrop(event) {
 // because there may be cases, where the class looks like "eu7 active-region",
 // and then the drop is invalid
 function isValidCombination(countryClassName, flag) {
-    if (countryClassName == "eu7" && flag == "BulgariaFlag") {
-        return true;
-    }
     if (countryClassName == "eu13" && flag == "FranceFlag") {
         return true;
     }
@@ -64,9 +97,6 @@ function isValidCombination(countryClassName, flag) {
         return true;
     }
     if (countryClassName == "eu16" && flag == "GermanyFlag") {
-        return true;
-    }
-    if (countryClassName == "eu19" && flag == "IcelandFlag") {
         return true;
     }
     if (countryClassName == "eu22" && flag == "ItalyFlag") {
