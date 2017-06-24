@@ -35,7 +35,7 @@ input[type="radio"] {
     display: none;
 }
 
-.not-active > span {
+.not-active > span, #map-europe.not-active > ul > li > span {
     pointer-events: none;
     cursor: no-drop;
 }
