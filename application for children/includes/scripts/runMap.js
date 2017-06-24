@@ -50,6 +50,9 @@ function disabledDrop(event) {
 }
 
 
+//TODO if the clickable map remains, use countryClassName.indexOf("...") !== -1,
+// because there may be cases, where the class looks like "eu7 active-region",
+// and then the drop is invalid
 function isValidCombination(countryClassName, flag) {
     if (countryClassName == "eu7" && flag == "BulgariaFlag") {
         return true;
