@@ -3147,14 +3147,14 @@
     background-position: -88px -512px
 }
 
-.cssmap-250 .eu7.focus .bg, .cssmap-250 .eu7.active-region .bg {
+.cssmap-250 .eu7 .bg, .cssmap-250 .eu7.active-region .bg {
     height: 12px;
     left: 134px;
     top: 156px;
     width: 18px
 }
 
-.cssmap-250 .eu7.focus .bg {
+.cssmap-250 .eu7 .bg {
     background-position: -267px -262px
 }
 
@@ -3327,14 +3327,14 @@
     background-position: -410px -513px
 }
 
-.cssmap-250 .eu19.focus .bg, .cssmap-250 .eu19.active-region .bg {
+.cssmap-250 .eu19 .bg, .cssmap-250 .eu19.active-region .bg {
     height: 22px;
     left: 0;
     top: 40px;
     width: 32px
 }
 
-.cssmap-250 .eu19.focus .bg {
+.cssmap-250 .eu19 .bg {
     background-position: -101px -416px
 }
 
@@ -4437,14 +4437,14 @@
     background-position: -100px -616px
 }
 
-.cssmap-320 .eu7.focus .bg, .cssmap-320 .eu7.active-region .bg {
+.cssmap-320 .eu7 .bg, .cssmap-320 .eu7.active-region .bg {
     height: 15px;
     left: 167px;
     top: 191px;
     width: 23px
 }
 
-.cssmap-320 .eu7.focus .bg {
+.cssmap-320 .eu7 .bg {
     background-position: -321px -305px
 }
 
@@ -4617,14 +4617,14 @@
     background-position: -494px -616px
 }
 
-.cssmap-320 .eu19.focus .bg, .cssmap-320 .eu19.active-region .bg {
+.cssmap-320 .eu19 .bg, .cssmap-320 .eu19.active-region .bg {
     height: 27px;
     left: 0;
     top: 46px;
     width: 40px
 }
 
-.cssmap-320 .eu19.focus .bg {
+.cssmap-320 .eu19 .bg {
     background-position: -128px -499px
 }
 
@@ -5728,14 +5728,14 @@
     background-position: -114px -738px
 }
 
-.cssmap-430 .eu7.focus .bg, .cssmap-430 .eu7.active-region .bg {
+.cssmap-430 .eu7 .bg, .cssmap-430 .eu7.active-region .bg {
     height: 19px;
     left: 229px;
     top: 253px;
     width: 29px
 }
 
-.cssmap-430 .eu7.focus .bg {
+.cssmap-430 .eu7 .bg {
     background-position: -367px -389px
 }
 
@@ -5908,14 +5908,14 @@
     background-position: -565px -739px
 }
 
-.cssmap-430 .eu19.focus .bg, .cssmap-430 .eu19.active-region .bg {
+.cssmap-430 .eu19 .bg, .cssmap-430 .eu19.active-region .bg {
     height: 35px;
     left: 12px;
     top: 64px;
     width: 52px
 }
 
-.cssmap-430 .eu19.focus .bg {
+.cssmap-430 .eu19 .bg {
     background-position: -151px -610px
 }
 
@@ -6883,14 +6883,14 @@
     background-position: -142px -914px
 }
 
-.cssmap-540 .eu7.focus .bg, .cssmap-540 .eu7.active-region .bg {
+.cssmap-540 .eu7 .bg, .cssmap-540 .eu7.active-region .bg {
     height: 24px;
     left: 290px;
     top: 320px;
     width: 37px
 }
 
-.cssmap-540 .eu7.focus .bg {
+.cssmap-540 .eu7 .bg {
     background-position: -458px -475px
 }
 
@@ -7063,14 +7063,14 @@
     background-position: -697px -915px
 }
 
-.cssmap-540 .eu19.focus .bg, .cssmap-540 .eu19.active-region .bg {
+.cssmap-540 .eu19 .bg, .cssmap-540 .eu19.active-region .bg {
     height: 45px;
     left: 14px;
     top: 80px;
     width: 66px
 }
 
-.cssmap-540 .eu19.focus .bg {
+.cssmap-540 .eu19 .bg {
     background-position: -175px -746px
 }
 
@@ -8017,14 +8017,14 @@
     background-position: -156px -1071px
 }
 
-.cssmap-650 .eu7.focus .bg, .cssmap-650 .eu7.active-region .bg {
+.cssmap-650 .eu7 .bg, .cssmap-650 .eu7.active-region .bg {
     height: 29px;
     left: 349px;
     top: 392px;
     width: 45px
 }
 
-.cssmap-650 .eu7.focus .bg {
+.cssmap-650 .eu7 .bg {
     background-position: -512px -572px
 }
 
@@ -8197,14 +8197,14 @@
     background-position: -777px -1071px
 }
 
-.cssmap-650 .eu19.focus .bg, .cssmap-650 .eu19.active-region .bg {
+.cssmap-650 .eu19 .bg, .cssmap-650 .eu19.active-region .bg {
     height: 54px;
     left: 15px;
     top: 101px;
     width: 79px
 }
 
-.cssmap-650 .eu19.focus .bg {
+.cssmap-650 .eu19 .bg {
     background-position: -209px -873px
 }
 
@@ -9152,14 +9152,14 @@
     background-position: -169px -1234px
 }
 
-.cssmap-750 .eu7.focus .bg, .cssmap-750 .eu7.active-region .bg {
+.cssmap-750 .eu7 .bg, .cssmap-750 .eu7.active-region .bg {
     height: 35px;
     left: 405px;
     top: 463px;
     width: 53px
 }
 
-.cssmap-750 .eu7.focus .bg {
+.cssmap-750 .eu7 .bg {
     background-position: -562px -655px
 }
 
@@ -9332,14 +9332,14 @@
     background-position: -854px -1235px
 }
 
-.cssmap-750 .eu19.focus .bg, .cssmap-750 .eu19.active-region .bg {
+.cssmap-750 .eu19 .bg, .cssmap-750 .eu19.active-region .bg {
     height: 63px;
     left: 12px;
     top: 122px;
     width: 93px
 }
 
-.cssmap-750 .eu19.focus .bg {
+.cssmap-750 .eu19 .bg {
     background-position: -246px -990px
 }
 
@@ -10267,14 +10267,14 @@
     background-position: -184px -1389px
 }
 
-.cssmap-850 .eu7.focus .bg, .cssmap-850 .eu7.active-region .bg {
+.cssmap-850 .eu7 .bg, .cssmap-850 .eu7.active-region .bg {
     height: 40px;
     left: 461px;
     top: 531px;
     width: 61px
 }
 
-.cssmap-850 .eu7.focus .bg {
+.cssmap-850 .eu7 .bg {
     background-position: -616px -739px
 }
 
@@ -10447,14 +10447,14 @@
     background-position: -933px -1389px
 }
 
-.cssmap-850 .eu19.focus .bg, .cssmap-850 .eu19.active-region .bg {
+.cssmap-850 .eu19 .bg, .cssmap-850 .eu19.active-region .bg {
     height: 73px;
     left: 10px;
     top: 139px;
     width: 107px
 }
 
-.cssmap-850 .eu19.focus .bg {
+.cssmap-850 .eu19 .bg {
     background-position: -264px -1123px
 }
 
@@ -11361,14 +11361,14 @@
     background-position: -473px -1520px
 }
 
-.cssmap-960 .eu7.focus .bg, .cssmap-960 .eu7.active-region .bg {
+.cssmap-960 .eu7 .bg, .cssmap-960 .eu7.active-region .bg {
     height: 44px;
     left: 519px;
     top: 593px;
     width: 67px
 }
 
-.cssmap-960 .eu7.focus .bg {
+.cssmap-960 .eu7 .bg {
     background-position: -664px -821px
 }
 
@@ -11541,14 +11541,14 @@
     background-position: -1001px -1522px
 }
 
-.cssmap-960 .eu19.focus .bg, .cssmap-960 .eu19.active-region .bg {
+.cssmap-960 .eu19 .bg, .cssmap-960 .eu19.active-region .bg {
     height: 81px;
     left: 18px;
     top: 158px;
     width: 119px
 }
 
-.cssmap-960 .eu19.focus .bg {
+.cssmap-960 .eu19 .bg {
     background-position: -271px -1062px
 }
 
@@ -12459,14 +12459,14 @@
     background-position: -263px -2020px
 }
 
-.cssmap-1280 .eu7.focus .bg, .cssmap-1280 .eu7.active-region .bg {
+.cssmap-1280 .eu7 .bg, .cssmap-1280 .eu7.active-region .bg {
     height: 58px;
     left: 693px;
     top: 791px;
     width: 90px
 }
 
-.cssmap-1280 .eu7.focus .bg {
+.cssmap-1280 .eu7 .bg {
     background-position: -882px -1099px
 }
 
@@ -12639,14 +12639,14 @@
     background-position: -1331px -2020px
 }
 
-.cssmap-1280 .eu19.focus .bg, .cssmap-1280 .eu19.active-region .bg {
+.cssmap-1280 .eu19 .bg, .cssmap-1280 .eu19.active-region .bg {
     height: 107px;
     left: 24px;
     top: 210px;
     width: 158px
 }
 
-.cssmap-1280 .eu19.focus .bg {
+.cssmap-1280 .eu19 .bg {
     background-position: -371px -1427px
 }
 
@@ -13549,14 +13549,14 @@
     background-position: -681px -2258px
 }
 
-.cssmap-1450 .eu7.focus .bg, .cssmap-1450 .eu7.active-region .bg {
+.cssmap-1450 .eu7 .bg, .cssmap-1450 .eu7.active-region .bg {
     height: 66px;
     left: 786px;
     top: 893px;
     width: 101px
 }
 
-.cssmap-1450 .eu7.focus .bg {
+.cssmap-1450 .eu7 .bg {
     background-position: -969px -1228px
 }
 
@@ -13729,14 +13729,14 @@
     background-position: -1458px -2259px
 }
 
-.cssmap-1450 .eu19.focus .bg, .cssmap-1450 .eu19.active-region .bg {
+.cssmap-1450 .eu19 .bg, .cssmap-1450 .eu19.active-region .bg {
     height: 121px;
     left: 34px;
     top: 240px;
     width: 178px
 }
 
-.cssmap-1450 .eu19.focus .bg {
+.cssmap-1450 .eu19 .bg {
     background-position: -397px -1586px
 }
 

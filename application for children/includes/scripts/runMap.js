@@ -54,9 +54,6 @@ function disabledDrop(event) {
 // because there may be cases, where the class looks like "eu7 active-region",
 // and then the drop is invalid
 function isValidCombination(countryClassName, flag) {
-    if (countryClassName == "eu7" && flag == "BulgariaFlag") {
-        return true;
-    }
     if (countryClassName == "eu13" && flag == "FranceFlag") {
         return true;
     }
@@ -64,9 +61,6 @@ function isValidCombination(countryClassName, flag) {
         return true;
     }
     if (countryClassName == "eu16" && flag == "GermanyFlag") {
-        return true;
-    }
-    if (countryClassName == "eu19" && flag == "IcelandFlag") {
         return true;
     }
     if (countryClassName == "eu22" && flag == "ItalyFlag") {
