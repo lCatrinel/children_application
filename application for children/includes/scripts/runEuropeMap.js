@@ -1,7 +1,7 @@
 /**
  * Created by Kitty on 6/5/2017.
  */
-$(document).ready(function(){
+$(document).ready(function () {
 
 // CSSMap;
     $("#map-europe").CSSMap({
@@ -42,7 +42,7 @@ var countriesMap = {
     "eu43": ["SwedenFlag", "../includes/flags/Flag_of_Sweden.svg.png"],
     "eu45": ["TurkeyFlag", "../includes/flags/Flag_of_Turkey.jpg"],
     "eu46": ["UkraineFlag", "../includes/flags/Flag_of_Ukraine.jpg"],
-    "eu47": ["UnitedKingdomFlag",  src="../includes/flags/Flag_of_the_United_Kingdom.svg.png"]
+    "eu47": ["UnitedKingdomFlag", src = "../includes/flags/Flag_of_the_United_Kingdom.svg.png"]
 };
 
 //MODAL starts here
@@ -56,13 +56,13 @@ var span = document.getElementsByClassName("close")[0];
 var events = {};
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 };
 
-function displayModal(event) {
+function displayModal(event, country) {
 
     if (modal.style.display == "block") {
         return;
@@ -70,27 +70,31 @@ function displayModal(event) {
 
     //open with a delay, so that the user has time to hover over countries
     var delay = setTimeout(function () {
-        //new items should be inserted here
-        var grandparent = event.target.parentElement.parentElement;
+            //new items should be inserted here
+            var grandparent = event.target.parentElement.parentElement;
 
-        //check if there is a flag, and if so, remove it
-        var df = document.getElementById("dialogFlag");
-        if (df != null) {
-            df.parentElement.removeChild(df);
-        }
+            //check if there is a flag, and if so, remove it
+            var df = document.getElementById("dialogFlag");
+            if (df != null) {
+                df.parentElement.removeChild(df);
+            }
 
-        //get the matching flag and insert it dynamically
-        var toInsert = getImageTag(grandparent.className.split(' ')[0]);
+            //get the matching flag and insert it dynamically
+            var toInsert = getImageTag(grandparent.className.split(' ')[0]);
 
-        //insert it
-        modal.firstElementChild.appendChild(toInsert);
+            //insert it
+            modal.firstElementChild.appendChild(toInsert);
 
-        //display it
-        modal.style.display = "block";
+            //display it
+            modal.style.display = "block";
 
-        //also, disable click, hover, etc on background
-        $('#map-europe').addClass("not-active");
-    },
+            //also, disable click, hover, etc on background
+            $('#map-europe').addClass("not-active");
+
+            var audio = new Audio("../includes/sounds/" + country + ".wav");
+            audio.play();
+
+        },
         700);
     //cancel the timeout if the user has hovered out
     this.onmouseout = function () {
@@ -133,7 +137,7 @@ function drop(event) {
     //check if valid
     if (isValidCombination(grandparent.className, flagIdToRemove)) {
         //hide dragged flag
-        $("#" + flagIdToRemove).animate({ opacity: 0 }); //.fadeOut(); //.hide()
+        $("#" + flagIdToRemove).animate({opacity: 0}); //.fadeOut(); //.hide()
         //color map that it was filled
         $(grandparent).addClass("correctly-dropped");
     } else {
