@@ -11,33 +11,15 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <!--
 
-
- 
-
-     *** DO NOT COPY ANYTHING FROM THE SOURCE CODE OF THIS DEMO PAGE ! ***
-
-
-     * CSSMap plugin - Europe [ http://cssmapsplugin.com/get/europe ]
-     * version: 5.5.3 - December 11th, 2016
-     *
-     * author: Łukasz Popardowski { Winston_Wolf }
-     * license: http://cssmapsplugin.com/license
-     * FAQ: http://cssmapsplugin.com/faq
-     *
-     * email: http://cssmapsplugin.com/contact
-     * twitter: @CSSMapplugin
-
-
-
-
-    -->
     <link rel="stylesheet" type="text/css" href="../includes/style.css" media="all"/>
     <link rel="stylesheet" type="text/css" href="../cssmap-europe/cssmap-europe.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="../includes/css/custom.css">
     <link rel="stylesheet" type="text/css" href="flags.css">
     <link rel="stylesheet" type="text/css" href="../includes/css/modalDialog.css">
+
+    <link rel="stylesheet" type="text/css" href="../includes/css/prevNextButtons.css">
+    <link rel="stylesheet" href="../includes/bootstrap/bootstrap.min.css">
 
     <title>CSSMap - Europe</title>
 </head>
@@ -46,8 +28,13 @@
 <!--[if lt IE 9 ]>
 <div id="ie-error">This page will not work correctly in your web browser! Just upgrade it, don't be medieval</div><![endif]-->
 
-<article class="page-content">
+<article class="page-content center">
 
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <a href="continents.html" class="previous round">&#8249;</a>
+    </div>
+
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
         <div class="aligncenter">
             <img id="UnitedKingdomFlag" src="../includes/flags/Flag_of_the_United_Kingdom.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
             <img id="SpainFlag" src="../includes/flags/Flag_of_Spain.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
@@ -127,6 +114,11 @@
             <img id="NorwayFlag" src="../includes/flags/Flag_of_Norway.jpg" class="draggable-flag" draggable="true" ondragstart="drag(event)">
             <img id="SwedenFlag" src="../includes/flags/Flag_of_Sweden.svg.png" class="draggable-flag" draggable="true" ondragstart="drag(event)">
         </div>
+    </div>
+
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <!--<a id= href="#" class="next round">&#8250;</a>-->
+    </div>
 
     </div>
     <!-- END OF THE SECTION DEMO -->

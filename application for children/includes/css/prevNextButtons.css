@@ -1,0 +1,23 @@
+.previous, .next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #f1f1f1 !important;
+    color: black;
+    vertical-align: middle;
+    margin-top: 264px;
+    font-size: 200%
+}
+
+.previous:hover, .previous:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
