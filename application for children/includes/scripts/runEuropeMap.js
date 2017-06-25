@@ -121,18 +121,27 @@ function getImageTag(className) {
 //MODAL ends here
 
 //drag and drop starts here
+
+var flagToDragAndDrop;
+
 function allowDrop(event) {
     event.preventDefault();
 }
 
 function drag(event) {
-    event.dataTransfer.setData("flag", event.target.id);
+    //since this doesn't work in FF...
+    //event.dataTransfer.setData("text/plain", event.target.id);
+    flagToDragAndDrop = event.target.id;
 }
 
 function drop(event) {
+    event.preventDefault();
+
     var grandparent = event.target.parentElement.parentElement;
 
-    var flagIdToRemove = event.dataTransfer.getData("flag");
+    //since this doesn't work in FF...
+    //var flagIdToRemove = event.dataTransfer.getData("text");
+    var flagIdToRemove = flagToDragAndDrop;
 
     //check if valid
     if (isValidCombination(grandparent.className, flagIdToRemove)) {
