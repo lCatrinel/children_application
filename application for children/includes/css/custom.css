@@ -1,18 +1,3 @@
-/*#map-europe {*/
-    /*float: left;*/
-    /*width: 50%;*/
-/*}*/
-
-/*#demo-agents {*/
-    /*float: left;*/
-    /*width: 50%;*/
-/*}*/
-
-/*.flag {*/
-    /*width: 150px;*/
-    /*height: 150px;*/
-/*}*/
-
 .question {
     text-align: center;
 }
@@ -42,4 +27,22 @@ input[type="radio"] {
 
 .noclick {
     pointer-events: none;
+}
+
+.top-spacer {
+    height: 5em;
+}
+
+.continents-spacer {
+    height: 8em;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.special-center {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
 }
