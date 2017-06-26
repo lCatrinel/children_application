@@ -95,7 +95,7 @@ function displayModal(event, country) {
             audio.play();
 
         },
-        700);
+        800);
     //cancel the timeout if the user has hovered out
     this.onmouseout = function () {
         clearTimeout(delay);
@@ -149,9 +149,11 @@ function drop(event) {
         $("#" + flagIdToRemove).animate({opacity: 0}); //.fadeOut(); //.hide()
         //color map that it was filled
         $(grandparent).addClass("correctly-dropped");
+        var audio = new Audio("../includes/sounds/success.wav");
+        audio.play();
     } else {
-        alert("invalid drop");
-        //TODO some sound should play here
+        var audio = new Audio("../includes/sounds/error.wav");
+        audio.play();
     }
 }
 
