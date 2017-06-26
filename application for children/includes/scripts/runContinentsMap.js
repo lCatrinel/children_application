@@ -6,7 +6,8 @@ $(document).ready(function(){
 // CSSMap;
     $("#map-continents").CSSMap({
         "size": 850,
-        "responsive": "auto"
+        "responsive": "auto",
+        "tooltips": false
     });
 // END OF THE CSSMap;
 
